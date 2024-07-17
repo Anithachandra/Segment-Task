@@ -1,0 +1,175 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #000;
+}
+.top-div{
+    width: 100%;
+    height: 3vw;
+    background-color: rgb(111, 250, 250);
+    font-size: 2vw;
+    color: black;
+    text-shadow: 1px 1px 1px gray;
+}
+.popUpContainer{
+    width: 70vw;
+    height: 45.6vw;
+    background-color: rgb(250, 244, 244);
+    position: relative;
+    border: 2px solid black;
+    border-radius: 2px;
+    /* display: none; */
+}
+.labelbox{
+    display: flex;
+    padding: 0.5vw;
+    justify-content: center;
+    align-items: center;
+}
+.label1{
+    font-size: 1.5vw;
+    font-weight: bold;
+    /* font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto; */
+    padding: 1vw;
+}
+input{
+    width: 43vw;
+    height: 3.3vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    position: relative;
+    top:0.5vw;
+    box-shadow: 1px 1px 1px black;
+}
+.para-cont{
+    width: 100%;
+    height: 4vw;    
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+.sphere-div{
+    width: 100%;
+    height: 3vw;
+    /* background-color: green; */
+     display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: row;
+
+}
+.spheres{
+    width: 13vw;
+    height: 3vw;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    column-gap: 0.5vw;
+
+}
+#s1{
+    /* background-color: blue; */
+}
+.circle{
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color: red;
+    border-radius: 100%;
+}
+#c1{
+    background-color: green;
+}
+.span{
+    /* background-color: red; */
+    font-size: 1.5vw;
+}
+.bluebox{
+    width: 100%;
+    height: auto;
+    /* height: 10vw; */
+    border: 2px solid blue;
+}
+.add-schema{
+    width: 100%;
+    height: 5vw;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.circle-div{
+    width: 1.2vw;
+    height: 1.2vw;
+    background-color:gray;
+    border: 1px solid black;
+    border-radius: 60%;
+}
+.schema-div{
+    width: 43vw;
+    height: 4vw;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+}
+.delete-div{
+    width: 8vw;
+    height: 3.3vw;
+    /* background-color: yellow; */
+    cursor: pointer;
+}
+#drop-down{
+    width:43vw;
+    height: 4vw ;
+}
+
+.options{
+    font-size: 1.2vw;
+    /* font-weight: bold; */
+}
+.add-schema1{
+    width: 100%;
+    height: 2vw;
+    /* background-color:green; */
+    font-size: 1.5vw;
+    font-weight: bold;   
+}
+.add-schema1 a{
+    margin-left: 10vw;
+}
+footer{
+    width: 100%;
+    height: 5vw;
+    background-color: rgb(191, 189, 189);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2vw;
+    margin-top: 17.7vw;
+}
+.save button{
+    background-color: green;
+    width: 12vw;
+    height:3vw ;
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+#cancel button{
+    background-color: #fff;
+    color: red;
+    width: 8vw;
+    height: 3vw;
+}
+

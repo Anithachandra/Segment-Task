@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    overflow: hidden;
+}
+.container1{
+width: 100vw;
+height: 45.6vw;
+background-image:url(./Assets/background\ image.jpg) ;
+background-repeat: no-repeat;
+background-size: 110%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container2{
+ width: 80vw;
+ height: 44vw;
+background: rgba(255,255,255,0);
+border-radius: 20px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 1);
+backdrop-filter: blur(1.4px);
+-webkit-backdrop-filter: blur(1.4px);
+border: 1px solid rgba(255,255,255, 1.4);
+display: flex;
+justify-content: center;
+padding: 4vw;
+justify-content: center;
+/* transition: all 1s; 
+animation: squeeze 1s  linear reverse; */
+}
+.but1{
+    width: 20vw;
+    height: 4vw;
+    background-color: rgb(126, 124, 124);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black;
+    border: none;
+    font-size: 2vw;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+  
+}
+/* @keyframes squeeze {
+to{
+        width: 100vw;
+        height:45.6vw ;
+    }
+    from{
+        width: 50vw;
+        height:45.6vw ;
+        position: relative;
+        left: 0;
+    }
+    
+} */
+
